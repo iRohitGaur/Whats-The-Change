@@ -1,0 +1,100 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+:root {
+  --background-light: #c9cad9;
+  --background: #d1d2f9;
+  --primary-light: #a3bcf9;
+  --primary: #7796cb;
+  --primary-dark: #576490;
+}
+
+html,
+body {
+  margin: 0px;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--background);
+  height: 100vh;
+}
+
+.app__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-dark);
+  padding-top: 2rem;
+}
+
+.app__subtitle {
+  font-size: 0.8rem;
+  color: var(--primary);
+  padding: 1rem;
+}
+
+.change__inputname {
+  width: 90%;
+  max-width: 500px;
+  height: 40px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  background: var(--background);
+}
+
+.change__input {
+  box-shadow: inset 0px 0px 6px #6a6a6a;
+}
+
+.change__submit {
+  background: var(--background-light);
+  height: 60px;
+  width: 90%;
+  max-width: 580px;
+  box-shadow: 0px 0px 6px #6a6a6a;
+}
+
+.app__errorlabel {
+  color: red;
+  margin: 2rem;
+  max-width: 90%;
+}
+
+.change__table {
+  margin: auto;
+  border-radius: 2px;
+  border-color: var(--primary);
+  border-style: solid;
+}
+
+.change__tablevalues {
+  padding: 20px;
+}
+
+.change__required {
+  background: green;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary);
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+}
